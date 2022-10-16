@@ -4,7 +4,7 @@
 ## Process
 Detect images of Lex Fridman
 Segment these images 
-Deepfake a Lex onto:
+Deepfake Lex onto:
 - his guest
 - a real time stream
 - onto an app on my phone 
