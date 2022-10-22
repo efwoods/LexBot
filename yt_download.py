@@ -16,5 +16,6 @@ if __name__ == "__main__":
 
     #Starting download
     print("Downloading...")
-    ys.download("/Volumes/WD_BLACK/Lex")
+    #ys.download("/Volumes/WD_BLACK/Lex")
+    ys.download()
     print("Download completed!!")
