@@ -16,3 +16,9 @@ Deepfake Lex onto:
 - [tensorflow](https://www.tensorflow.org/)
 
 ## Digital Necromancy
+What I would like to do:
+- pose estimation
+- object detection
+- personality insights
+- speaker automatic detection (audio/text)
+- audio manipulation of the way things are spoken...
