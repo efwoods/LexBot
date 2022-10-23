@@ -22,3 +22,6 @@ What I would like to do:
 - personality insights
 - speaker automatic detection (audio/text)
 - audio manipulation of the way things are spoken...
+
+## Omnia
+https://www.youtube.com/watch?v=eF-E40pxxbI
