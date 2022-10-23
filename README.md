@@ -23,11 +23,14 @@ Deepfake Lex onto:
 
 ## Digital Necromancy
 What I would like to do:
-- pose estimation
-- object detection
-- personality insights
-- speaker automatic detection (audio/text)
-- audio manipulation of the way things are spoken...
+- [x] download video
+- [x] download transcript
+- [ ] detect speaker with respect to transcript timestamp
+- [ ] pose estimation
+- [ ] object detection (could use to id speaker)
+- [ ] personality insights
+- [ ] speaker automatic detection (audio/text)
+- [ ] audio manipulation of the way things are spoken...
 
 ## Omnia
 https://www.youtube.com/watch?v=eF-E40pxxbI
