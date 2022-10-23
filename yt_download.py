@@ -1,5 +1,6 @@
 from pytube import YouTube
 
+
 if __name__ == "__main__":
 
     #ask for the link from user
@@ -19,3 +20,5 @@ if __name__ == "__main__":
     #ys.download("/Volumes/WD_BLACK/Lex")
     ys.download()
     print("Download completed!!")
+
+def captions():
