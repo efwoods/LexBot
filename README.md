@@ -25,7 +25,7 @@ Deepfake Lex onto:
 What I would like to do:
 - [x] download video
 - [x] download transcript
-- [ ] detect speaker with respect to transcript timestamp
+- [ ] [detect speaker with respect to transcript timestamp](https://www.youtube.com/watch?v=ZLIPkmmDJAc)
 - [ ] pose estimation
 - [ ] object detection (could use to id speaker)
 - [ ] personality insights
