@@ -21,6 +21,7 @@ Deepfake Lex onto:
 - [C++](https://www.w3schools.com/cpp/)
 - [pytorch](https://pytorch.org)
 - [tensorflow](https://www.tensorflow.org/)
+- [custom gpt-3 chatbot](https://towardsdatascience.com/custom-informed-gpt-3-models-for-your-website-with-very-simple-code-47134b25620b)
 
 ## Digital Necromancy
 What I would like to do:
