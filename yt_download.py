@@ -1,6 +1,5 @@
 from pytube import YouTube
 
-
 if __name__ == "__main__":
 
     #ask for the link from user
@@ -14,11 +13,11 @@ if __name__ == "__main__":
     print("Rating of video: ",yt.rating)
 
     # Get Captions
-    caption = yt.captions
-    f = open("captions.txt", "a")
-    f.write(caption.generate_srt_captions())
-    f.close()
-    print(caption.generate_srt_captions())
+#    caption = yt.captions
+#    f = open("captions.txt", "a")
+#    f.write(caption.generate_srt_captions())
+#    f.close()
+#    print(caption.generate_srt_captions())
 
     #Getting the highest resolution possible
     ys = yt.streams.get_highest_resolution()
