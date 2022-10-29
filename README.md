@@ -39,3 +39,11 @@ What I would like to do:
 ## Omnia
 https://www.youtube.com/watch?v=eF-E40pxxbI
 
+
+## Greatness 
+What is great engineering?
+- download lex podcast transcripts
+- find every reference of "great engineering"
+- upload to GPT-3: The definition of great engineering as reffered from the Lex Fridman podcasts. 
+- query: What is great engineering?
+- (opt): create audio of lex's voice

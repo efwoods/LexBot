@@ -1,7 +1,7 @@
 import os
 import openai
 
-openai.api_key = ""
+openai.api_key = "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"
 
 start_sequence = "\nLexBot:"
 restart_sequence = "\nHuman: "
