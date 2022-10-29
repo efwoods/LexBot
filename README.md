@@ -56,7 +56,12 @@ What is great engineering?
 
 ## Question:
 What if I just used the entire transcript? I think it would be too long for the OpenAI API. Also, I would like to associate sentiment analysis, video generation, and other data to the response to make the AI seem more life-like. 
-How many times do people repeat themselves if given a search of everything they've ever said?
+
+
+ - How many times do people repeat themselves if given a search of everything they've ever said? 
+  1. ID Lex's voice by audio (use introductions as training for nn)
+  2. get timestamps of when Lex speaks
+  3. 
 
 
 ### Data Pipeline
