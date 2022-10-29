@@ -39,7 +39,6 @@ What I would like to do:
 ## Omnia
 https://www.youtube.com/watch?v=eF-E40pxxbI
 
-
 ## Greatness 
 
 What is great engineering?
@@ -57,6 +56,8 @@ What is great engineering?
 
 ## Question:
 What if I just used the entire transcript? I think it would be too long for the OpenAI API. Also, I would like to associate sentiment analysis, video generation, and other data to the response to make the AI seem more life-like. 
+How many times do people repeat themselves if given a search of everything they've ever said?
+
 
 ### Data Pipeline
 #### transcript_greatness.ipynb (the process of grabbing text)
@@ -67,3 +68,4 @@ What if I just used the entire transcript? I think it would be too long for the 
 5. convert entries to full sentences
 6. append entry to prompt of the response of the openai lexbot
 7. send a request about the searched_term using openaiAPI
+
