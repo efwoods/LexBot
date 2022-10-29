@@ -49,6 +49,9 @@ What is great engineering?
 - query: What is great engineering?
 - (opt): create audio of lex's voice
 
+## Notes: 
+I would like to scale the pipeline to accept a playlist of videos 
+
 ### Data Pipeline
 #### transcript_greatness.ipynb (the process of grabbing text)
 1. youtube_video_to_json_transcript
