@@ -61,7 +61,9 @@ What if I just used the entire transcript? I think it would be too long for the 
  - How many times do people repeat themselves if given a search of everything they've ever said? 
   1. ID Lex's voice by audio (use introductions as training for nn)
   2. get timestamps of when Lex speaks
-  3. 
+  3. accumulate a compendium of phrases only said by Lex
+  4. search for the exact phrase
+  5. return the results
 
 
 ### Data Pipeline
@@ -70,7 +72,7 @@ What if I just used the entire transcript? I think it would be too long for the 
 2. read_json_file (to store it into an object)
 3. select a search_term (in this case, looking for references of 'greatness')
 4. identify_entries  --- (find where in the video the phrases are mentioned)
-5. convert entries to full sentences
+5. convert entries to full sentences (use n entries per found phrase)
 6. append entry to prompt of the response of the openai lexbot
 7. send a request about the searched_term using openaiAPI
 
