@@ -67,5 +67,3 @@ What if I just used the entire transcript? I think it would be too long for the 
 5. convert entries to full sentences
 6. append entry to prompt of the response of the openai lexbot
 7. send a request about the searched_term using openaiAPI
-
-
