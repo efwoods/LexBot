@@ -50,7 +50,9 @@ What is great engineering?
 - (opt): create audio of lex's voice
 
 ## Notes: 
-I would like to scale the pipeline to accept a playlist of videos 
+- I would like to scale the pipeline to accept a playlist of videos
+- I would like to add generative video & audio based off this data
+- I would like to host this for others to view/query
 
 ### Data Pipeline
 #### transcript_greatness.ipynb (the process of grabbing text)
