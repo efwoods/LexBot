@@ -41,9 +41,22 @@ https://www.youtube.com/watch?v=eF-E40pxxbI
 
 
 ## Greatness 
+
 What is great engineering?
 - download lex podcast transcripts
 - find every reference of "great engineering"
 - upload to GPT-3: The definition of great engineering as reffered from the Lex Fridman podcasts. 
 - query: What is great engineering?
 - (opt): create audio of lex's voice
+
+### Data Pipeline
+#### transcript_greatness.ipynb (the process of grabbing text)
+1. youtube_video_to_json_transcript
+2. read_json_file (to store it into an object)
+3. select a search_term (in this case, looking for references of 'greatness')
+4. identify_entries  --- (find where in the video the phrases are mentioned)
+5. convert entries to full sentences
+6. append entry to prompt of the response of the openai lexbot
+7. send a request about the searched_term using openaiAPI
+
+
