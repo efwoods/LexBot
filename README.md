@@ -53,6 +53,10 @@ What is great engineering?
 - I would like to scale the pipeline to accept a playlist of videos
 - I would like to add generative video & audio based off this data
 - I would like to host this for others to view/query
+- TorchText may help with full phrases
+
+## Question:
+What if I just used the entire transcript? I think it would be too long for the OpenAI API. Also, I would like to associate sentiment analysis, video generation, and other data to the response to make the AI seem more life-like. 
 
 ### Data Pipeline
 #### transcript_greatness.ipynb (the process of grabbing text)
