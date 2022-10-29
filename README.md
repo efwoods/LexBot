@@ -4,13 +4,18 @@ Inspired by the life and work of Lex Fridman's podcast, you will find here a com
 
 Should by some rare chance this is viewed by him, Lex Fridman should know that I give full rights and control over the full lifecycle of this data and any works which may spring tangent off it. The life was yours, and this work should reflect your life as you see fit.
 
-## Process
-Detect images of Lex Fridman
-Segment these images 
-Deepfake Lex onto:
-- his guest
-- a real time stream
-- onto an app on my phone 
+## Table of Contents
+- [Current transcript](./transcript_greatness.ipynb)
+## Future Goals
+  - Create a classifier to detect images of Lex Fridman 
+  - Create a dataset of Lex Fridman's body position's and movements
+  - Deepfake Lex onto:
+    - his guest
+    - a real time stream
+    - Display Lex through an app on my phone 
+    - I would like to scale the pipelines here to accept a playlist of videos
+    - I would like to add generative video & audio based off this data
+    - I would like to host this work on a website for others to view/query/experience
 
 ### Correct Pronunciation of "au courant"
 - [au courant clip](https://youtube.com/clip/Ugkx45pooOJs7vVvMNgQSBuJchfYoe_x1vXD)
@@ -26,6 +31,7 @@ Deepfake Lex onto:
 - [tensorflow](https://www.tensorflow.org/)
 - [custom gpt-3 chatbot](https://towardsdatascience.com/custom-informed-gpt-3-models-for-your-website-with-very-simple-code-47134b25620b)
 - [Modifying emphasis](https://gfx.cs.princeton.edu/pubs/Jin_2017_VTI/Jin2017-VoCo-paper.pdf)
+- [pytorch: speech command classification with torch audio](https://github.com/pytorch/tutorials/blob/gh-pages/_downloads/c64f4bad00653411821adcb75aea9015/speech_command_classification_with_torchaudio_tutorial.ipynb)
 
 ## Digital Necromancy
 What I would like to do:
@@ -54,7 +60,7 @@ What is great engineering?
 ## Notes: 
 - I would like to scale the pipeline to accept a playlist of videos
 - I would like to add generative video & audio based off this data
-- I would like to host this for others to view/query
+- I would like to host this work on a website for others to view/query
 - TorchText may help with full phrases
 
 ## Question:
