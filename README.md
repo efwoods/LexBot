@@ -5,4 +5,4 @@ Inspired by the life and work of Lex Fridman's podcast, you will find here a com
 Should by some rare chance this is viewed by him, Lex Fridman should know that I give full rights and control over the full lifecycle of this data and any works which may spring tangent off it. The life was yours, and this work should reflect your life as you see fit.
 
 ## Table of Contents
- - [Natural Language Processing](#natural-language-processing)
+ - [Natural Language Processing](./NLP.ipynb)
