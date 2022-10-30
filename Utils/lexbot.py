@@ -1,7 +1,11 @@
 import os
 import openai
+from dotenv import load_dotenv
 
-openai.api_key = "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"
+load_dotenv()
+OPEN_AI_KEY = os.getenv('OPEN_AI_KEY')
+
+openai.api_key = OPEN_AI_KEY
 
 start_sequence = "\nLexBot:"
 restart_sequence = "\nHuman: "
