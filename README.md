@@ -5,69 +5,36 @@ Inspired by the life and work of Lex Fridman's podcast, you will find here a com
 Should by some rare chance this is viewed by him, Lex Fridman should know that I give full rights and control over the full lifecycle of this data and any works which may spring tangent off it. The life was yours, and this work should reflect your life as you see fit.
 
 ## Table of Contents
-- [Current transcript](./transcript_greatness.ipynb)
+ - [Natural Language Processing](#natural-language-processing)
+
 ## Future Goals
+- [Audio Processing](#audio-processing)
+- Visual Recognition
   - Create a classifier to detect images of Lex Fridman 
+- Pose Mapping & Movement
   - Create a dataset of Lex Fridman's body position's and movements
+- Miscellaneous
+  - [Omnia](#inspiration-omnia) 
   - Deepfake Lex onto:
     - his guest
-    - a real time stream
-    - Display Lex through an app on my phone 
-    - I would like to scale the pipelines here to accept a playlist of videos
-    - I would like to add generative video & audio based off this data
-    - I would like to host this work on a website for others to view/query/experience
-
-### Correct Pronunciation of "au courant"
-- [au courant clip](https://youtube.com/clip/Ugkx45pooOJs7vVvMNgQSBuJchfYoe_x1vXD)
-- [real time voice cloning](https://github.com/efwoods/Real-Time-Voice-Cloning?organization=efwoods&organization=efwoods)
-- [pytorch voice changing tutorial](https://www.youtube.com/watch?v=12rdn9jazwE)
-- [google pronunciation of "au courant"](https://www.google.com/search?q=Au+courant&rlz=1C5CHFA_enUS1010US1010&ei=MRhVY_K9K-elqtsPide5gAc&ved=0ahUKEwiymrKDk_b6AhXnkmoFHYlrDnAQ4dUDCBA&uact=5&oq=Au+courant&gs_lcp=Cgdnd3Mtd2l6EAMyDQgAEIAEELEDEEYQ-QEyEQguEIAEELEDEIMBEMcBEK8BMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CggAEEcQ1gQQsAM6BQgAEKIEOgcIABAeEKIEOgUIIRCrAkoECEEYAEoECEYYAFCaA1i0HmCXIGgCcAF4AIABeIgBxgKSAQMxLjKYAQCgAQKgAQHIAQjAAQE&sclient=gws-wiz)
-- [Lex Fridman & balaji srinivasan](https://www.youtube.com/watch?v=VeH7qKZr0WI)
-
-## Resources
-- [playlist](https://www.youtube.com/watch?v=ZFntEFXKDHM&list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4&index=1)
-- [C++](https://www.w3schools.com/cpp/)
-- [pytorch](https://pytorch.org)
-- [tensorflow](https://www.tensorflow.org/)
-- [custom gpt-3 chatbot](https://towardsdatascience.com/custom-informed-gpt-3-models-for-your-website-with-very-simple-code-47134b25620b)
-- [Modifying emphasis](https://gfx.cs.princeton.edu/pubs/Jin_2017_VTI/Jin2017-VoCo-paper.pdf)
-- [pytorch: speech command classification with torch audio](https://github.com/pytorch/tutorials/blob/gh-pages/_downloads/c64f4bad00653411821adcb75aea9015/speech_command_classification_with_torchaudio_tutorial.ipynb)
-
-## Digital Necromancy
-What I would like to do:
-- [x] download video
-- [x] download transcript
-- [ ] [detect speaker with respect to transcript timestamp](https://www.youtube.com/watch?v=ZLIPkmmDJAc)
+    - a real time stream (mechanically turk as Lex Fridman)
+  - [x] download video
+  - [x] download transcript
+  - [ ] personality insights
+  - [ ] 
+  - [ ] speaker automatic detection (audio/text)
+  - [ ] audio manipulation of the way things are spoken...
+  - [ ] [detect speaker with respect to transcript timestamp](https://www.youtube.com/watch?v=ZLIPkmmDJAc)
   - [tf audio classifier](https://www.tensorflow.org/lite/inference_with_metadata/task_library/audio_classifier)
-- [ ] pose estimation
-- [ ] object detection (could use to id speaker)
-- [ ] personality insights
-- [ ] speaker automatic detection (audio/text)
-- [ ] audio manipulation of the way things are spoken...
+  - Display Lex through an app on my phone 
+    - I would like to scale the pipelines here to accept a playlist of videos
+    - I would like to add generative video & audio based off of Lex Fridman's data
+    - I would like to host this work on a website for others to view/query/experience 
 
-## Omnia
-https://www.youtube.com/watch?v=eF-E40pxxbI
-
-## Greatness 
-
-What is great engineering?
-- download lex podcast transcripts
-- find every reference of "great engineering"
-- upload to GPT-3: The definition of great engineering as reffered from the Lex Fridman podcasts. 
-- query: What is great engineering?
-- (opt): create audio of lex's voice
-
-## Notes: 
-- I would like to scale the pipeline to accept a playlist of videos
-- I would like to add generative video & audio based off this data
-- I would like to host this work on a website for others to view/query
-- TorchText may help with full phrases
-
-## Question:
-What if I just used the entire transcript? I think it would be too long for the OpenAI API. Also, I would like to associate sentiment analysis, video generation, and other data to the response to make the AI seem more life-like. 
-
-
- - How many times do people repeat themselves if given a search of everything they've ever said? 
+## Audio Processing
+### Inspiration: [Searchable Autobiographical Statements](https://www.youtube.com/watch?v=cdiD-9MMpb0) 
+How many times do people repeat themselves if given a search of everything they've ever said?
+### Process 
   1. ID Lex's voice by audio (use introductions as training for nn)
   2. get timestamps of when Lex speaks
   3. accumulate a compendium of phrases only said by Lex
@@ -75,8 +42,19 @@ What if I just used the entire transcript? I think it would be too long for the 
   5. return the results
 
 
-### Data Pipeline
-#### transcript_greatness.ipynb (the process of grabbing text)
+## Natural Language Processing 
+### Inspiration: Greatness 
+How does one leverage GPT-3 & Lex's podcast interviews to answer the question, "What is great engineering?"
+
+- download lex podcast transcripts
+- find every reference of "great engineering"
+- upload to GPT-3: The definition of great engineering as reffered from the Lex Fridman podcasts. 
+- query: What is great engineering?
+- (opt): create audio of lex's voice
+
+### [Notebook: NLP.ipynb](NLP.ipynb)
+
+### Process
 1. youtube_video_to_json_transcript
 2. read_json_file (to store it into an object)
 3. select a search_term (in this case, looking for references of 'greatness')
@@ -84,3 +62,7 @@ What if I just used the entire transcript? I think it would be too long for the 
 5. convert entries to full sentences (use n entries per found phrase)
 6. append entry to prompt of the response of the openai lexbot
 7. send a request about the searched_term using openaiAPI
+
+
+## [Inspiration: Omnia](https://www.youtube.com/watch?v=eF-E40pxxbI)
+What is a sentient AI like as imagined by Liv Boeree?
