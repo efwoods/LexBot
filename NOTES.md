@@ -18,4 +18,3 @@ follow the process:
 2. expand n-segments outward from the keyword
 3. cut & paste into GPT-3 to produce the body
 4. Query for results
-  
